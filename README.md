@@ -1,27 +1,30 @@
-# JEST Unit Tests
+## Autor
+Lucas Zanoni
 
-## GitHub Actions
+## Sobre o Projeto
+Projeto de avaliação desenvolvido na matéria de Automação de Testes da 6° Fase de Engenharia de Software na UNISATC. </br> </br> O projeto tem por objetivo desenvolver testes unitários para uma classe **Biblioteca** que possui vários métodos, dentre eles: **adicionarLivro(), listarLivros(), removerLivro(), adicionarMembro(), listarMembros(), removerMembro(), emprestarLivro(), devolverLivro()** e entre outros.
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+## Tecnologias Utilizadas
+- Javascript - Linguagem base para desenvolvimento da classe disponibilizada pelo professor.
+- Jest - Framework Javascript utilizado para o desenvolvimento dos testes unitários.
 
-## SonarCloud
+## Requisitos
+- Node - Versão 20.15.1 ou superior.
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
-
-## Getting Started
-
-In order to execute this project you must follow the steps below:
-
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
-
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
-
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
+## Executando o Projeto
+- Clonar o repositório
+```bash copy
+https://github.com/castrozan/qaTrabalhoJest
+```
+- Instalar dependências
+```bash copy
+npm install
+```
+- Executar os testes
+```bash copy
+npm run test
+```
+- Verificar cobertura dos testes
+```bash copy
+npm run coverage
+```
